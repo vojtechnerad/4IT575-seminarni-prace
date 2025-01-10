@@ -6,6 +6,10 @@ Tento repozitář obsahuje řešení semestrální práce z předmětu `4IT575 S
 - Kozlova Olesia
 - Nerad Vojtěch
 
+## Odkazy
+- [Microservices](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/microservies/README.md)
+- [SOA](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/README.md)
+
 ## Zadání
 Původní znění zadání semestrální práce.
 
