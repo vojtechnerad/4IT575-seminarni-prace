@@ -1,4 +1,4 @@
-# Rozhodnutí o databázi aplikace
+# Rozhodnutí o architektuře klientské aplikace
 
 ## ID
 
