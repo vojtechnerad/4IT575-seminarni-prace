@@ -1,3 +1,5 @@
+[Seminární práce](../../../README.md) / [Mikroservisní architektura](../../README.md) / ACR / [Celková architektura](README.md)
+
 # Rozhodnutí o celkové architektuře systému
 
 ## ID
