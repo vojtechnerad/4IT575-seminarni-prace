@@ -31,3 +31,5 @@ Jednotlivé služby se dají škálovat, což zajistí potřebný výkon při na
 Vzhledem k tomu, že je v této aplikaci klíčové, aby byli uživatelé aplikace spokojení, je vhodná vlastnost SOA, kdy oddělení funkcionalit do samostatných služeb usnadní údržbu a aktualizace systému, aniž by to ovlivnilo ostatní části aplikace.
 
 Requesty a response budou v JSONu.
+
+Jako nevýhoda tohoto řešení se může projevit komplexita a údržba, nebo cena návrhu.
