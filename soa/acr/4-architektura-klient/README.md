@@ -33,3 +33,5 @@ Aplikace bude rozdělena do následujících vrstev:
   - Knihovna Axios
 - Datová vrstva (Data Storage Layer)
   - Pro cacheování dat bude použiy localStorage pro web nebo AsyncStorage pro.
+
+- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)

@@ -50,3 +50,5 @@ Chování systému podle výše zmíněných požadavků bylo navrhnuto následo
 
 - Každý páty příspěvek bude obsahovat reklamu od partnera
 - Každý příspěvek mazlíčka bude mít jako poslední fotku reklamu od partnera
+
+- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)

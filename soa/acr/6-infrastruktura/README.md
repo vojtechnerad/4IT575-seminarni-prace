@@ -24,3 +24,5 @@ Pro nasazení bude využita platforma AWS (Amazon Web Services) s nasazením kl�
 ## Consequences
 
 Nasazení na AWS umožní flexibilní škálování aplikace v závislosti na aktuálním zatížení, vysokou dostupnost díky geografické redundanci. Správa infrastruktury bude zjednodušena díky využití služeb s řízeným provozem, což eliminuje potřebu ruční správy serverů. Na druhou stranu je využití AWS spojeno s měsíčními provozními náklady, které porostou s rozšířením uživatelské základny a objemu dat. Toto řešení je však připraveno na budoucí expanzi a umožní soustředit se na vývoj aplikace namísto provozní podpory.
+
+- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)

@@ -23,3 +23,5 @@ Pro systém bude využita služba pro rozšířenou realitu od mateřské služb
 ## Consequences
 
 Rozhodnutí využít službu pro rozšířenou realitu od mateřské organizace přináší rychlou implementaci a snížení nákladů na vývoj, protože není nutné vytvářet vlastní řešení. Toto řešení zároveň zajišťuje vysokou škálovatelnost a usnadňuje udržování aktuálnosti funkcionality. Na druhou stranu přináší závislost na externí službě, což může ovlivnit systém při výpadcích, změnách podmínek nebo zdražení služby. Celkově jde o efektivní řešení pro rychlé nasazení, ale vyžaduje průběžné sledování spolehlivosti a dostupnosti služby.
+
+- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)
