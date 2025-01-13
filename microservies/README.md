@@ -2,6 +2,9 @@
 
 # Mikroservisní architektura
 
+## Rozhodnutí
+1. [Celková architektura](./acr/1-celkova-architektura)
+
 ## Důvody
 - **Vysoká modularita**: Každá klíčová funce bude tvořena separátně jako samostatná služba - uživatelské účty, záznamy o pohřešovaných zvířatech, virtuální realita.
 
