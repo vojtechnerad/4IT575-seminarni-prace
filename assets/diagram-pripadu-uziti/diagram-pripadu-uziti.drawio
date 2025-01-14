@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Stránka-1" id="55WCHBGcp16iJ33XfVoN">
+    <mxGraphModel dx="1098" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="el6u1zI-taBMJVhUJdQs-11" value="Diagram případů užití" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=30;gradientColor=none;swimlaneFillColor=default;" parent="1" vertex="1">
+          <mxGeometry width="670" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Aplikace pohřešovaných&lt;br&gt;domácích mazlíčků&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="180" y="60" width="380" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="el6u1zI-taBMJVhUJdQs-1" target="el6u1zI-taBMJVhUJdQs-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="el6u1zI-taBMJVhUJdQs-1" target="3EU9JXSuC0VKIgvXzlHY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-1" value="Pozorovatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="el6u1zI-taBMJVhUJdQs-5" target="el6u1zI-taBMJVhUJdQs-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-5" value="Moderátor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="590" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-7" value="Moderování &lt;br&gt;komentářových&lt;br&gt;sekcí" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="585" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-13" value="Přidání&lt;br&gt;pohřešovaného&lt;br&gt;mazlíčka" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-14" value="Zobrazení&lt;br&gt;seznamu&lt;br&gt;pohřešovaných&lt;br&gt;mazlíčků" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="el6u1zI-taBMJVhUJdQs-17" target="el6u1zI-taBMJVhUJdQs-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="el6u1zI-taBMJVhUJdQs-17" target="el6u1zI-taBMJVhUJdQs-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-17" value="Majitel&lt;br&gt;pohřešovaného&lt;br&gt;mazlíčka" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="el6u1zI-taBMJVhUJdQs-22" target="el6u1zI-taBMJVhUJdQs-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="el6u1zI-taBMJVhUJdQs-22" target="el6u1zI-taBMJVhUJdQs-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="el6u1zI-taBMJVhUJdQs-22" target="el6u1zI-taBMJVhUJdQs-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="180" />
+              <mxPoint x="20" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-22" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-23" value="Správa&lt;br&gt;uživatelského&lt;br&gt;profilu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-24" value="Registrace&lt;br&gt;uživatelského&lt;br&gt;účtu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-28" value="Potvrzení&lt;br&gt;nalezení&lt;br&gt;ztraceného&lt;br&gt;mazlíčka" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="el6u1zI-taBMJVhUJdQs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="el6u1zI-taBMJVhUJdQs-22" target="el6u1zI-taBMJVhUJdQs-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="180" as="sourcePoint" />
+            <mxPoint x="40" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="180" />
+              <mxPoint x="20" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-2" value="Přidání&lt;br&gt;komentářů&lt;br&gt;ke ztraceným&lt;br&gt;případům" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="218" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-5" value="Zobrazení mazlíčka" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="el6u1zI-taBMJVhUJdQs-14" target="3EU9JXSuC0VKIgvXzlHY-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-7" value="Zobrazení místa v AR" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3EU9JXSuC0VKIgvXzlHY-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3EU9JXSuC0VKIgvXzlHY-5" target="3EU9JXSuC0VKIgvXzlHY-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="348" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
