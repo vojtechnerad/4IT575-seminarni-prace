@@ -30,3 +30,8 @@ Uživatelé: desítky majitelů pohřešovaných domácích mazlíčků, stovky 
 - Místní škálovatelnost (na město), ale případně i rozšíření do dalších měst.
 - Společnost chce vytvořit větší sociální komunitu kolem domácích zvířat.
 - Potenciální příjmy z reklamy od partnerů, jako jsou obchody s domácími zvířaty, mají potenciál vydělat statisíce.
+
+## TODO část
+
+### Diagram případů užití
+![Diagram případů užití](assets/diagram-pripadu-uziti/diagram-pripadu-uziti.png)
