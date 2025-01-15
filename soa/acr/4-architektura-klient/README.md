@@ -32,6 +32,6 @@ Aplikace bude rozdělena do následujících vrstev:
 - Komunikační vrstva
   - Knihovna Axios
 - Datová vrstva (Data Storage Layer)
-  - Pro cacheování dat bude použiy localStorage pro web nebo AsyncStorage pro.
+  - Pro cacheování dat bude použiy localStorage pro web nebo AsyncStorage.
 
 - [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)
