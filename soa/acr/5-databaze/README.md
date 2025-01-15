@@ -1,3 +1,5 @@
+[Seminární práce](../../../README.md) / [SAO Architektura](../../README.md) / ACR / [Databáze](README.md)
+
 # Rozhodnutí o databázi aplikace
 
 ## ID
@@ -23,5 +25,3 @@ Bude použita relační databáze PostgreSQL. Tento typ databáze byl zvolen kv�
 ## Consequences
 
 Použití PostgreSQL zajistí vysokou integritu dat díky transakčním vlastnostem (ACID), efektivní práci s geolokačními daty díky rozšíření PostGIS a širokou podporu pro pokročilé dotazy. Databáze umožňuje škálování a je bezplatná, což snižuje náklady. Změny ve struktuře dat mohou být náročné na správu a výkon při zpracování velkého objemu nestrukturovaných dat, jako jsou příspěvky nebo komentáře, může být omezen, což si v budoucnu může vyžádat zavedení NoSQL databáze.
-
-- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)

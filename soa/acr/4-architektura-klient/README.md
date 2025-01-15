@@ -1,3 +1,5 @@
+[Seminární práce](../../../README.md) / [SAO Architektura](../../README.md) / ACR / [Architektura klienta](README.md)
+
 # Rozhodnutí o architektuře klientské aplikace
 
 ## ID
@@ -33,5 +35,3 @@ Aplikace bude rozdělena do následujících vrstev:
   - Knihovna Axios
 - Datová vrstva (Data Storage Layer)
   - Pro cacheování dat bude použiy localStorage pro web nebo AsyncStorage.
-
-- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)

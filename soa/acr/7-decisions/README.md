@@ -1,3 +1,5 @@
+[Seminární práce](../../../README.md) / [SAO Architektura](../../README.md) / ACR / [Rozhodnutí o vlastnostech systému](README.md)
+
 # Rozhodnutí o vlastnostech systému
 
 ## ID
@@ -50,5 +52,3 @@ Chování systému podle výše zmíněných požadavků bylo navrhnuto následo
 
 - Každý páty příspěvek bude obsahovat reklamu od partnera
 - Každý příspěvek mazlíčka bude mít jako poslední fotku reklamu od partnera
-
-- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)
