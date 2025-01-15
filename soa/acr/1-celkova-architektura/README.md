@@ -33,3 +33,5 @@ Vzhledem k tomu, že je v této aplikaci klíčové, aby byli uživatelé aplika
 Requesty a response budou v JSONu.
 
 Jako nevýhoda tohoto řešení se může projevit komplexita a údržba, nebo cena návrhu.
+
+- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)
