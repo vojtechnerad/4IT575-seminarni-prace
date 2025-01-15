@@ -3,7 +3,8 @@
 # Mikroservisní architektura
 
 ## Rozhodnutí
-1. [Celková architektura](./acr/1-celkova-architektura)
+1. [Celková architektura](./acr/1-celkova-architektura/README.md)
+2. [Rozšířená realita](./acr/2-rozsirena-realita/README.md)
 
 ## Důvody
 - **Vysoká modularita**: Každá klíčová funce bude tvořena separátně jako samostatná služba - uživatelské účty, záznamy o pohřešovaných zvířatech, virtuální realita.
