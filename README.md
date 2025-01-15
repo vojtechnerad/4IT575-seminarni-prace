@@ -34,4 +34,34 @@ Uživatelé: desítky majitelů pohřešovaných domácích mazlíčků, stovky 
 ## TODO část
 
 ### Diagram případů užití
+
 ![Diagram případů užití](assets/diagram-pripadu-uziti/diagram-pripadu-uziti.png)
+
+Na základě předem daného zadání jsme definovali role uživatelů a případy užití pro danou aplikaci: 
+
+## Uživatelské role
+
+#### Neregistrovaný uživatel 
+
+* Uživatel si může zobrazit a prohlédnout seznam pohřešovaných mazlíčků (dostupné pouze omezené zobrazení).
+* Takový uživatel může vyhledávat mazlíčky v okolí (ale pouze do vzdálenosti 5 km) na mapě nebo v AR, ale bez možnosti přidávat komentáře, stavy apod.
+
+#### Registrovaný uživatel 
+
+* Po registraci a přihlášení takový uživatel má přístup k vlastním záznamům (komentáře, odměny apod.).
+* Může zobrazit seznam pohřešovaných mazlíčků v okolí – na mapě nebo v AR bez jakýchkoliv omezení
+* Může přidávat komentáře k záznamům o pohřešovaných mazlíčcích.
+* Rovněž může přidat “Nalezeno” (pokud se mu podaří najít ztracené zvíře)a vkládat fotky.
+* Pokud uživatel dostane potvrzení od majitele mazlíčka, že je to opravdu on, tak takový uživatel může získat odměnu.
+  
+#### Majitel pohřešovaného mazlíčka (pod-typ registrovaného uživatele) 
+
+*	Může přidat záznam o pohřešovaném zvířeti (fotografie, popis, odměna, poslední známá poloha).
+*	Po obdržení upozornění “Nalezeno!” může potvrdit, že se jedná o jeho zvíře.
+*	Může přidat odměnu tomu uživateli, který jeho mazlíčka našel (přes správu odměn).
+  
+#### Moderátor 
+*	Moderátor se zabývá kontrolu obsahu: upravuje a maže nevhodné komentáře.
+*	Dohlíží na správnost zveřejněných informací (např. falešné záznamy).
+
+
