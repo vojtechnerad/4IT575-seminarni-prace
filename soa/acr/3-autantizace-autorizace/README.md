@@ -1,3 +1,5 @@
+[Seminární práce](../../../README.md) / [SAO Architektura](../../README.md) / ACR / [Autorizaci a autentizace](README.md)
+
 # Rozhodnutí o autorizaci a autentizaci uživatelů
 
 ## ID
@@ -23,5 +25,3 @@ Pro systém bude zvolen autentizační mechanismus OAuth 2.0, jehož pomocí bud
 ## Consequences
 
 OAuth 2.0 poskytuje robustní bezpečnostní mechanismus, který minimalizuje riziko zneužití uživatelských přihlašovacích údajů. Uživatelé nebudou muset sdílet své heslo s aplikací, což výrazně snižuje pravděpodobnost úniku dat při zneužití aplikace nebo serveru.
-
-- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)

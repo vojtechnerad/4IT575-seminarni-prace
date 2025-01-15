@@ -1,3 +1,5 @@
+[Seminární práce](../../../README.md) / [SAO Architektura](../../README.md) / ACR / [Celková architektura](README.md)
+
 # Rozhodnutí o celkové architektuře systému
 
 ## ID
@@ -36,4 +38,3 @@ Jako nevýhoda tohoto řešení se může projevit komplexita a údržba, nebo c
 
 [![Diagram architektury](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/assets/diagram-celkova-architektura/soa/SOA-global.png)](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/assets/diagram-celkova-architektura/soa/SOA-global.png)
 
-- [Zpět na rozpis ACR](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/acr/README.md)
