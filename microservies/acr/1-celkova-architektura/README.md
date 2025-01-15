@@ -13,9 +13,13 @@ Schválené
 
 ## Context
 Je potřeba zvolit architekturu systému pro software sloužící k vyhledávání domácích mazlíčků.
+Pro tuto aplikaci je důležitá modulární rozšiřitelnost do budoucna.
+Aplikace musí zvládat geografické škálování (na více regionů/měst) a očekávaný nárůst počtu uživatelů.
+Systém musí zvládat rozeslání notifikací, rychle aktualizovat data.
 
 ## Decision
-Pro systém bude využita architektura mikroservis a pro komunikaci bude použit REST.
+Pro systém bude využita architektura mikroservis s oddělenými službami a pro komunikaci bude hlavně použit REST (přenos ve formátu JSON). Část služeb bude komunikovat asynchronním způsobem pomoci Kafka (prostřednictvím událostí). Když nálezce přidá záznam o nalezeném mazlíčkovi služba Evidence mazlíčků vytvoří událost PET_SPOTTED. Notifikační služba tuto událost zachytí a odešle notifikaci.
+
 
 ## Consequences
 Systém bude navržen tak, že jednotlivé funkce budou rozděleny do samostatných mikroservis.
