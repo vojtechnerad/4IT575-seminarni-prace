@@ -1,3 +1,4 @@
+[Seminární práce](../../../README.md) / [Mikroservisní architektura](../../README.md) / ACR / [Rozšířená realita](README.md)
 
 # Rozhodnutí o podobě rozšířené reality v systému
 
