@@ -1,15 +1,15 @@
-[Seminární práce](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/README.md) / [Mikroservisní architektura](https://github.com/vojtechnerad/4IT575-seminarni-prace/edit/main/microservies/README.md)
+[Seminární práce](../README.md) / [Architektura mikroslužeb](README.md)
 
-# Mikroservisní architektura
+# Architektura mikroslužeb
 
 ## Dokumenty
-1. [Rozhodnutí o celkové architektuře systému](./acr/1-celkova-architektura/README.md)
-2. [Rozhodnutí o podobě rozšířené reality v systému](./acr/2-rozsirena-realita/README.md)
-3. [Rozhodnutí o autorizaci a autentizaci uživatelů](./acr/3-autantizace-autorizace/README.md)
-4. [Rozhodnutí o architektuře klientské aplikace](./acr/4-architektura-klient/README.md)
-5. [Rozhodnutí o databázi aplikace](./acr/5-databaze/README.md)
-6. [Rozhodnutí o infrastruktuře](./acr/6-infrastruktura/README.md)
-7. [Rozhodnutí o vlastnostech systému](./acr/7-decisions/README.md)
+1. [Rozhodnutí o celkové architektuře systému](acr/1-celkova-architektura/README.md)
+2. [Rozhodnutí o podobě rozšířené reality v systému](acr/2-rozsirena-realita/README.md)
+3. [Rozhodnutí o autorizaci a autentizaci uživatelů](acr/3-autentizace-autorizace/README.md)
+4. [Rozhodnutí o architektuře klientské aplikace](acr/4-architektura-klient/README.md)
+5. [Rozhodnutí o databázi aplikace](acr/5-databaze/README.md)
+6. [Rozhodnutí o infrastruktuře](acr/6-infrastruktura/README.md)
+7. [Rozhodnutí o vlastnostech systému](acr/7-decisions/README.md)
 
 ## Důvody
 - **Vysoká modularita**: Každá klíčová funce bude tvořena separátně jako samostatná služba - uživatelské účty, záznamy o pohřešovaných zvířatech, virtuální realita.
