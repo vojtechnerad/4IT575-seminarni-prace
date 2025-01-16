@@ -1,4 +1,4 @@
-[Seminární práce](../../../README.md) / [Mikroservisní architektura](../../README.md) / ACR / [Rozhodnutí o autorizaci a autentizaci uživatelů](README.md)
+[Seminární práce](../../../README.md) / [Architektura mikroslužeb](../../README.md) / ACR / [Rozhodnutí o autorizaci a autentizaci uživatelů](README.md)
 
 # Rozhodnutí o autorizaci a autentizaci uživatelů
 
