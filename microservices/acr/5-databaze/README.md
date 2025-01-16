@@ -1,10 +1,16 @@
+[Seminární práce](../../../README.md) / [Architektura mikroslužeb](../../README.md) / ACR / [Rozhodnutí o databázi aplikace](README.md)
+
 # Rozhodnutí o databázi aplikace 
+
 ## ID
 5
+
 ## Datum
 10.1.2025
+
 ## Status
 Schválené 
+
 ## Context
 Je potřeba zvolit vhodný typ databáze. Aplikace pro správu a hledání pohřešovaných domacích mazlíčků potřebuje efektivní správu různých typů dat: 
 * **Strukturovaná data:** profily uživatelů, záznamy o mazličcích včetně parametrů, odměny
@@ -32,11 +38,8 @@ Pro správu a dočasné ukládání front notifikací:
   
 ## Decision
 Pro strukturovaná data bude použita relační databáze PostgreSQL. Tento typ databáze byl zvolen kvůli podpoře dobře definované datové struktury, transakčním vlastnostem (ACID) pro zajištění integrity dat a rozšíření PostGIS pro práci s geolokacemi.
-
 Pro komentáře a dynamická data bude použita databáze MongoDB, což je NoSQL databáze. Tento typ databáze byl zvolen díky možnostem ukládat rychle se měnící data, rychlého čtění a snadnější horizontální škálovatelnosti. 
-
 Pro fotografie bude použito cloudové objektové uložiště Amazon S3 z důvodu, že je to vysoce škalovatelné řešení a umožnuje snadnou integraci s dalšími službami. 
-
 Pro správu notifikací bude použita databáze Redis. Tento typ dataváze je nejvíc vyhovující pro notifikace, protože umožňuje rychlý přístup k datum (in-memory) a zároveň odlehčuje jinou databázi tím, že podporuje ukládání často použivaných dat. 
 
 ## Consequences
