@@ -1,4 +1,4 @@
-[Seminární práce](../README.md) / [Architektura orientovaná na služby](README.md) / ACR / [Rozhodnutí o podobě rozšířené reality v systému](README.md)
+[Seminární práce](../../../README.md) / [Architektura orientovaná na služby](../../README.md) / ACR / [Rozhodnutí o podobě rozšířené reality v systému](README.md)
 
 # Rozhodnutí o podobě rozšířené reality v systému
 
