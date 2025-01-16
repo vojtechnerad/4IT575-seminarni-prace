@@ -11,19 +11,15 @@
 6. [Rozhodnutí o infrastruktuře](acr/6-infrastruktura/README.md)
 7. [Rozhodnutí o vlastnostech systému](acr/7-decisions/README.md)
 
-## Důvody
-- **Vysoká modularita**: Každá klíčová funce bude tvořena separátně jako samostatná služba - uživatelské účty, záznamy o pohřešovaných zvířatech, virtuální realita.
+## Diagram
+![Diagram architektury](../assets/diagram-celkova-architektura/microservices/MicroservicesGlobal.jpg)
 
-## Návrh architektury
+## Přehled výhod a nevýhod využití architektury mikroslužeb
 
-## Dokumentace
-
-## Přehled výhod a nevýhod využití mikroservisní architektury
-
-### Výhody
+### Výhody použití architektury mikroslužeb pro tuto aplikaci
 - **Možnost budoucího rozšiřování**: Mikroservisní architektura umožňuje jednoduší rozšíření celé aplikace, ať už ve formě přidání nové mikroservisy, či úpravy stávající. Tato vlastnost může být pro mateřskou společnost užitečná, pokud bude plánovat integraci některých nově vyvíjených služeb rozšířené reality přímo do aplikace. 
 
-### Nevýhody
+### Nevýhody použití architektury mikroslužeb pro tuto aplikaci
 - **Vyšší provozní náklady**
   - **Více nasazení**: Každá mikroservisa vyžaduje vlastní běhové prostředí (například kontejner nebo virtuální stroj). To zvyšuje náklady na cloudové zdroje.
   - **Monitoring**: Pro každou mikroservisu je nutné nastavit logování, monitorování a alerty, což může zvýšit provozní náklady.
