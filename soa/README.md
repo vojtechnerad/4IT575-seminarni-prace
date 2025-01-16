@@ -31,6 +31,6 @@
 3.	**Zvýšené nároky na infrastrukturu** - Každá služba běží nezávisle, což zvyšuje požadavky na servery, síť a monitoring.
 4.	**Bezpečnost** - Větší počet služeb znamená více vstupních bodů, které je třeba zabezpečit (např. autentizace, šifrování dat).
 5.	**Problémy s konzistencí dat** - V distribuovaném prostředí je obtížnější zajistit konzistenci dat napříč službami, což může být problém při transakcích.
-6.	**Závislost na kvalitě návrh** - Špatně navržené služby (např. příliš malé nebo naopak příliš velké) mohou způsobit problémy s výkonností a rozšiřitelností systému.
+6.	**Závislost na kvalitě návrhu** - Špatně navržené služby (např. příliš malé nebo naopak příliš velké) mohou způsobit problémy s výkonností a rozšiřitelností systému.
 7.	**Náročnější monitoring a ladění** - Sledování stavu více služeb, jejich logů a metrik zvyšuje složitost diagnostiky a řešení problémů.
 8.	**Vyšší vstupní náklady** - Pořízení a nastavení infrastruktury pro SOA (např. orchestrátor služeb, API gateway, monitoring) vyžaduje větší počáteční investici.
