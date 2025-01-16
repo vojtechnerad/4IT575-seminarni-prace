@@ -14,6 +14,9 @@
 ## Diagram
 ![Diagram architektury](../assets/diagram-celkova-architektura/microservices/MicroservicesGlobal.jpg)
 
+## Diagram komponent
+![Diagram komponent](../assets/diagram-komponent/microservices/diagram-komponent-ms.png)
+
 ## Přehled výhod a nevýhod využití architektury mikroslužeb
 
 ### Výhody použití architektury mikroslužeb pro tuto aplikaci
