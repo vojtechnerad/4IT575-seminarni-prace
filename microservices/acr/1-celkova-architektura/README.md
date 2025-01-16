@@ -18,8 +18,38 @@ Aplikace musí zvládat geografické škálování (na více regionů/měst) a o
 Systém musí zvládat rozeslání notifikací, rychle aktualizovat data.
 
 ## Decision
-Pro systém bude využita architektura mikroservis s oddělenými službami a pro komunikaci bude hlavně použit REST (přenos ve formátu JSON). Část služeb bude komunikovat asynchronním způsobem pomoci Kafka (prostřednictvím událostí). Když nálezce přidá záznam o nalezeném mazlíčkovi služba Evidence mazlíčků vytvoří událost PET_SPOTTED. Notifikační služba tuto událost zachytí a odešle notifikaci.
+Pro systém bude využita architektura mikroservis s oddělenými službami a pro komunikaci bude hlavně použit REST (přenos ve formátu JSON). Část služeb bude komunikovat asynchronním způsobem pomoci Kafka (prostřednictvím událostí). Když nálezce přidá záznam o nalezeném mazlíčkovi služba Evidence mazlíčků vytvoří událost. Notifikační služba tuto událost zachytí a odešle notifikaci.
 
+V rámci návrhované architektury budou využity následující služby: 
+
+#### Služba uživatelů
+Správa uživatelských účtů (registrace, přihlášení, hesla, základní osobní údaje).
+
+#### Služba evidence mazlíčků
+Správa záznamů o pohřešovaných mazlíčcích (poslední známá poloha, stav, plemeno, věk, jméno mazlíčka).
+Bude se využívat PostGIS pro geolokační vyhledávání 
+Tato služba bude publikovat event pet_found do message brokeru, aby další služby jako Notifikační služba a služba Odměn mohly reagovat.
+
+####  Služba komentářů a interakcí
+V rámci této služby se ukládájí komentáře a dynamická data.
+Služba bude běžět nad MongoDB.
+
+#### Media služba
+Služba bude přijímat a následně ukládat multimediální obsah (fotky) do Amazon S3.
+V databázi budou uchovává pouze metadata v DB (např. URL, velikost, typ souboru).
+
+#### Služba odměn
+V rámci se budou evidovat a přidávat odměny uživatelům, kteří mazlíčky našli.
+
+#### Notifikační služba
+Služba bude odesílat e-mailové nebo push notifikace majiteli pohřešovaného mazlíčka.
+Budou odebírány relevantní události z message brokeru.
+
+#### Služba map
+Služba bude využita pro zpracování mapových podkladů, externí API pro geolokaci.
+
+#### Služba AR
+Této službě je věnována kapitola naší práce.
 
 ## Consequences
 Systém bude navržen tak, že jednotlivé funkce budou rozděleny do samostatných mikroservis. Toto řešení umožní vysokou flexibilitu a snadné přidávání nebo upravování konkrétních částí aplikace bez zásahu do ostatních. Díky této modularitě a nezávislosti je aplikace připravena na budoucí rozšiřování, například o nové funkce spojené s rozšířenou realitou.
