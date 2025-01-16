@@ -1,4 +1,4 @@
-[Seminární práce](../README.md) / [Architektura orientovaná na služby](README.md) / ACR / [Rozhodnutí o celkové architektuře systému](README.md)
+[Seminární práce](../../../README.md) / [Architektura orientovaná na služby](../../README.md) / ACR / [Rozhodnutí o celkové architektuře systému](README.md)
 
 # Rozhodnutí o celkové architektuře systému
 
