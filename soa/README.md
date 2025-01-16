@@ -14,7 +14,7 @@
 ## Diagram
 ![Diagram architektury](../assets/diagram-celkova-architektura/soa/SOA-global.png)
 
-## Přehled výhod a nevýhod využití mikroservisní architektury
+## Přehled výhod a nevýhod využití architektury orientované na služby
 
 ### Výhody použití SOA pro tuto aplikaci
 1.	**Modularita** - Systém je rozdělen na samostatné služby (např. uživatelé, příspěvky, geolokace), což umožňuje snadné přidávání nových funkcí nebo úpravy jednotlivých částí bez ovlivnění ostatních.
