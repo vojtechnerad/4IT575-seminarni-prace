@@ -66,6 +66,8 @@ Na základě předem daného zadání jsme definovali role uživatelů a přípa
 
 Na základě požadavků a charakteristik aplikace lze říci, že obě architektury mají své výhody, ale microservices jsou v tomto případě vhodnější zejména s ohledem na budoucí rozvoj a provozní požadavky.
 
+**Vybraná architektura je tedy [Architektura mikroslužeb](./microservices/README.md).**
+
 **1. Škálovatelnost a nezávislé nasazení**
 
 SOA umožňuje modularitu a standardizaci díky ESB (Enterprise Service Bus), což by mohlo být pro začátek dostatečné. Nicméně s plánovaným rozšířením aplikace do dalších měst a vytvořením větší sociální platformy kolem zvířat je vhodnější přejít rovnou na microservices. Díky nezávislému nasazení jednotlivých služeb je možné škálovat pouze ty části systému, které jsou nejvíce vytížené (například služby související s příspěvky na sociální zeď nebo vyhledávání). Tím se efektivněji využívají zdroje a minimalizují náklady.
