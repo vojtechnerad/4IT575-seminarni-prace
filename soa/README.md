@@ -3,13 +3,13 @@
 # Architektura orientovaná na služby
 
 ## Dokumenty
-- [Rozhodnutí o celkové architektuře systému](acr/1-celkova-architektura/README.md)
-- [Rozhodnutí o podobě rozšířené reality v systému](acr/2-rozsirena-realita/README.md)
-- [Rozhodnutí o autorizaci a autentizaci uživatelů](acr/3-autentizace-autorizace/README.md)
-- [Rozhodnutí o architektuře klientské aplikace](acr/4-architektura-klient/README.md)
-- [Rozhodnutí o databázi aplikace](acr/5-databaze/README.md)
-- [Rozhodnutí o infrastruktuře](acr/6-infrastruktura/README.md)
-- [Rozhodnutí o vlastnostech systému](acr/7-decisions/README.md)
+1. [Rozhodnutí o celkové architektuře systému](acr/1-celkova-architektura/README.md)
+2. [Rozhodnutí o podobě rozšířené reality v systému](acr/2-rozsirena-realita/README.md)
+3. [Rozhodnutí o autorizaci a autentizaci uživatelů](acr/3-autentizace-autorizace/README.md)
+4. [Rozhodnutí o architektuře klientské aplikace](acr/4-architektura-klient/README.md)
+5. [Rozhodnutí o databázi aplikace](acr/5-databaze/README.md)
+6. [Rozhodnutí o infrastruktuře](acr/6-infrastruktura/README.md)
+7. [Rozhodnutí o vlastnostech systému](acr/7-decisions/README.md)
 
 ## Diagram
 ![Diagram architektury](../assets/diagram-celkova-architektura/soa/SOA-global.png)
