@@ -1,4 +1,4 @@
-[Seminární práce](../../../README.md) / [Architektura mikroslužeb](../../README.md) / ACR / [Rozšířená realita](README.md)
+[Seminární práce](../../../README.md) / [Architektura mikroslužeb](../../README.md) / ACR / [Rozhodnutí o podobě rozšířené reality v systému](README.md)
 
 # Rozhodnutí o podobě rozšířené reality v systému
 
