@@ -1,29 +1,23 @@
-[Seminární práce](../../../README.md) / [SAO Architektura](../../README.md) / ACR / [Architektura klienta](README.md)
+[Seminární práce](../README.md) / [Architektura orientovaná na služby](README.md) / ACR / [Rozhodnutí o architektuře klientské aplikace](README.md)
 
 # Rozhodnutí o architektuře klientské aplikace
 
 ## ID
-
 4
 
 ## Datum
-
 11.1.2025
 
 ## Status
-
 Schválené
 
 ## Context
-
 Ze zadání vyplývá, že je potřeba zajistit vyvážení mezi funkcionalitou, uživatelským komfortem a výkonem, a to jak pro mobilní zařízení, tak pro web.
 
 ## Decision
-
 Navrhovaná architektura bude vycházet z modulárního přístupu, který umožňuje flexibilitu, rozšiřitelnost a jednoduchou údržbu.
 
 ## Consequences
-
 Aplikace bude rozdělena do následujících vrstev:
 
 - Prezenční vrsta
