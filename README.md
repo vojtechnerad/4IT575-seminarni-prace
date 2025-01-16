@@ -1,14 +1,12 @@
-# Semestrální práce
+[Seminární práce](README.md)
+
+# Seminární práce
 Tento repozitář obsahuje řešení semestrální práce z předmětu `4IT575 Softwarové architektury`.
 
 ## Řešitelé
-- Brázda Jan
-- Kozlova Olesia
-- Nerad Vojtěch
-
-## Odkazy
-- [Microservices](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/microservies/README.md)
-- [SOA](https://github.com/vojtechnerad/4IT575-seminarni-prace/blob/main/soa/README.md)
+- [Brázda Jan](https://github.com/brazdahonza) [braj15]
+- [Kozlova Olesia](https://github.com/oli711) [kozo01]
+- [Nerad Vojtěch](https://github.com/vojtechnerad) [nerv01]
 
 ## Zadání
 Původní znění zadání semestrální práce.
@@ -31,23 +29,20 @@ Uživatelé: desítky majitelů pohřešovaných domácích mazlíčků, stovky 
 - Společnost chce vytvořit větší sociální komunitu kolem domácích zvířat.
 - Potenciální příjmy z reklamy od partnerů, jako jsou obchody s domácími zvířaty, mají potenciál vydělat statisíce.
 
-## TODO část
+## Vypracované řešení
+Podkapitoly níže poskytují definici požadavků vyplývajících ze zadání, spolu s odkazy na konkrétní zvolené softwarové architektury. Tyto podkapitoly zahrnují návrh architektur, jejich dokumentaci a přehled klíčových výhod a nevýhod.
 
 ### Diagram případů užití
-
 ![Diagram případů užití](assets/diagram-pripadu-uziti/diagram-pripadu-uziti.png)
 
-Na základě předem daného zadání jsme definovali role uživatelů a případy užití pro danou aplikaci: 
-
 ## Uživatelské role
+Na základě předem daného zadání jsme definovali role uživatelů a případy užití pro danou aplikaci.
 
 #### Neregistrovaný uživatel 
-
 * Uživatel si může zobrazit a prohlédnout seznam pohřešovaných mazlíčků (dostupné pouze omezené zobrazení).
 * Takový uživatel může vyhledávat mazlíčky v okolí (ale pouze do vzdálenosti 5 km) na mapě nebo v AR, ale bez možnosti přidávat komentáře, stavy apod.
 
-#### Registrovaný uživatel 
-
+#### Registrovaný uživatel
 * Po registraci a přihlášení takový uživatel má přístup k vlastním záznamům (komentáře, odměny apod.).
 * Může zobrazit seznam pohřešovaných mazlíčků v okolí – na mapě nebo v AR bez jakýchkoliv omezení
 * Může přidávat komentáře k záznamům o pohřešovaných mazlíčcích.
@@ -55,7 +50,6 @@ Na základě předem daného zadání jsme definovali role uživatelů a přípa
 * Pokud uživatel dostane potvrzení od majitele mazlíčka, že je to opravdu on, tak takový uživatel může získat odměnu.
   
 #### Majitel pohřešovaného mazlíčka (pod-typ registrovaného uživatele) 
-
 *	Může přidat záznam o pohřešovaném zvířeti (fotografie, popis, odměna, poslední známá poloha).
 *	Po obdržení upozornění “Nalezeno!” může potvrdit, že se jedná o jeho zvíře.
 *	Může přidat odměnu tomu uživateli, který jeho mazlíčka našel (přes správu odměn).
@@ -64,4 +58,6 @@ Na základě předem daného zadání jsme definovali role uživatelů a přípa
 *	Moderátor se zabývá kontrolu obsahu: upravuje a maže nevhodné komentáře.
 *	Dohlíží na správnost zveřejněných informací (např. falešné záznamy).
 
-
+## Zvolené architektury
+- [Mircroservices](./microservies/README.md)
+- [Service Oriented Architecture](./soa/README.md)
