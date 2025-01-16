@@ -1,4 +1,4 @@
-[Seminární práce](../../../README.md) / [Mikroservisní architektura](../../README.md) / ACR / [Rozhodnutí o infrastruktuře](README.md)
+[Seminární práce](../../../README.md) / [Architektura mikroslužeb](../../README.md) / ACR / [Rozhodnutí o infrastruktuře](README.md)
 
 # Rozhodnutí o infrastruktuře
 
