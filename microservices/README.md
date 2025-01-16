@@ -34,7 +34,7 @@
 - **Vyšší složitost návrhu**: Rozdělení aplikace na mikroservisy vyžaduje pečlivý návrh komunikace mezi nimi. Je potřeba zohlednit nejen datové toky, ale také způsob správy chyb a synchronizace mezi jednotlivými částmi.
 - **Latence při komunikaci**: Komunikace mezi mikroservisami přes API přidává určitou režii a latenci. To může být problém zejména u funkcí, kde je rychlost klíčová, například při zobrazování mapových dat v reálném čase.
 - **Zvýšené nároky na infrastrukturu**: Každá mikroservisa běží nezávisle, což znamená vyšší spotřebu výpočetních zdrojů, náročnější správu serverů a větší požadavky na šířku pásma.
-- **Bezpečnostní rizika**: Každá mikroservisa představuje nový vstupní bod do systému, který je potřeba zabezpečit. To zahrnuje správnou autentizaci, šifrování dat a ochranu proti útokům.
+- **Bezpečnostní rizika**: Každá mikroservisa představuje nový vstupní bod do systému, který je potřeba zabezpečit. To zahrnuje správnou autorizaci, šifrování dat a ochranu proti útokům.
 - **Konzistence dat**: Zajištění konzistence dat napříč distribuovaným systémem může být složité. Tento problém je zvlášť výrazný u transakcí, kde je třeba balancovat mezi dostupností a konzistencí.
 - **Monitoring a diagnostika**: Sledování stavu a výkonu jednotlivých mikroservis, jejich logování a řešení problémů vyžaduje pokročilé nástroje a zkušené týmy. Diagnostika problémů v takto komplexním systému může být náročná.
 - **Závislost na kvalitě návrhu**: Pokud jsou mikroservisy navrženy příliš malé nebo naopak příliš rozsáhlé, mohou ztratit výhody této architektury. Špatný návrh může vést k problémům s výkonem a rozšiřitelností systému.
