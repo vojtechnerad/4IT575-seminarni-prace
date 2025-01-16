@@ -18,7 +18,7 @@ Aplikace musí zvládat geografické škálování (na více regionů/měst) a o
 Systém musí zvládat rozeslání notifikací, rychle aktualizovat data.
 
 ## Decision
-Pro systém bude využita architektura mikroservis s oddělenými službami a pro komunikaci bude hlavně použit REST (přenos ve formátu JSON). Část služeb bude komunikovat asynchronním způsobem pomoci Kafka (prostřednictvím událostí). Když nálezce přidá záznam o nalezeném mazlíčkovi služba Evidence mazlíčků vytvoří událost. Notifikační služba tuto událost zachytí a odešle notifikaci.
+Pro systém bude využita architektura mikroservis s oddělenými službami a pro komunikaci bude hlavně použit REST (přenos ve formátu JSON). Část služeb bude komunikovat asynchronním způsobem pomoci Kafka (prostřednictvím událostí). 
 
 V rámci návrhované architektury budou využity následující služby: 
 
