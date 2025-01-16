@@ -59,5 +59,5 @@ Na základě předem daného zadání jsme definovali role uživatelů a přípa
 *	Dohlíží na správnost zveřejněných informací (např. falešné záznamy).
 
 ## Zvolené architektury
-- [Mircroservices](./microservices/README.md)
-- [Service Oriented Architecture](./soa/README.md)
+- [Architektura mikroslužeb](./microservices/README.md)
+- [Architektura orientovaná na služby](./soa/README.md)
