@@ -58,6 +58,30 @@ Na základě předem daného zadání jsme definovali role uživatelů a přípa
 *	Moderátor se zabývá kontrolu obsahu: upravuje a maže nevhodné komentáře.
 *	Dohlíží na správnost zveřejněných informací (např. falešné záznamy).
 
-## Zvolené architektury
+## Architektury, mezi kterými bylo rozhodováno
 - [Architektura mikroslužeb](./microservices/README.md)
 - [Architektura orientovaná na služby](./soa/README.md)
+
+## Vybraná architektura pro tento projekt
+
+Na základě požadavků a charakteristik aplikace lze říci, že obě architektury mají své výhody, ale microservices jsou v tomto případě vhodnější zejména s ohledem na budoucí rozvoj a provozní požadavky.
+
+**1. Škálovatelnost a nezávislé nasazení**
+
+SOA umožňuje modularitu a standardizaci díky ESB (Enterprise Service Bus), což by mohlo být pro začátek dostatečné. Nicméně s plánovaným rozšířením aplikace do dalších měst a vytvořením větší sociální platformy kolem zvířat je vhodnější přejít rovnou na microservices. Díky nezávislému nasazení jednotlivých služeb je možné škálovat pouze ty části systému, které jsou nejvíce vytížené (například služby související s příspěvky na sociální zeď nebo vyhledávání). Tím se efektivněji využívají zdroje a minimalizují náklady.
+
+**2. Odolnost vůči chybám**
+
+Microservices přinášejí vyšší odolnost vůči selhání díky tomu, že jednotlivé služby fungují nezávisle. Pokud jedna služba selže (například registrace uživatelů), neovlivní to funkčnost ostatních částí systému, jako je zobrazení seznamu zvířat nebo interakce na sociální zdi. Naopak u SOA může porucha ESB vést k nefunkčnosti celé aplikace.
+
+**3. Horizontální škálování a flexibilita**
+
+Microservices podporují snadné horizontální škálování díky event-driven architektuře (EDA). To je ideální pro aplikaci s potenciálně velkým počtem uživatelů a proměnlivou zátěží. Každá služba může být aktualizována a škálována nezávisle, což usnadňuje přizpůsobení novým požadavkům nebo funkcím, jako je například podpora rozšířené reality.
+
+**4. Komplexita a náklady**
+
+Na druhou stranu je nutné vzít v úvahu, že implementace microservices přináší vyšší složitost z hlediska orchestrace, monitoringu a logování. Je potřeba zajistit robustní infrastrukturu pro komunikaci mezi službami, sledování jejich stavu a správu chyb. SOA by zde mohla být jednodušším a rychlejším řešením, ale dlouhodobě by se její nevýhody projevily při rozšiřování aplikace.
+
+**5. Databázová nezávislost**
+
+Microservices obvykle používají oddělené databáze pro jednotlivé služby, což umožňuje optimalizaci pro konkrétní potřeby každé služby. Oproti tomu SOA typicky pracuje s jednou sdílenou databází, což může vést ke slabinám při vysoké zátěži nebo při změnách v modelu dat.
